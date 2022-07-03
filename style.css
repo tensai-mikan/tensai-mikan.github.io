@@ -1,5 +1,5 @@
 /*ページの骨格となる部分*/
-#bg{
+body{
 width:  100%;
 margin:  0px;
 background-color:  #fff;
