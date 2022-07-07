@@ -1,0 +1,48 @@
+/*ページの骨格となる部分*/
+body{
+width:  100%;
+margin:  0px;
+background-color:  #fff;
+display:  flex;
+flex-direction:  column;
+}
+
+article{
+width:  calc(100% - 10px);
+margin-top:  20px;
+margin-left:  5px;
+margin-right:  5px;
+}
+
+header{
+margin:  5px;
+width:  calc(100% - 10px);
+}
+
+#main{
+width:  calc(100% - 25px);
+margin:  5px;
+padding-right:  10px;
+padding-left:  10px;
+background-color:  #fff;
+border:  solid 1px #eee;
+}
+
+.side{
+width:  calc(100% - 10px);
+margin:  5px;
+margin-bottom:  5px;
+padding-top:  3px;
+padding-left:  5px;
+background-color:  #fff;
+border:  solid 1px #eee;
+}
+
+footer{
+width:  calc(100% - 10px);
+padding:  10px 5px 10px 5px;
+margin-top: auto;
+background-color:  #ccc;
+color:  #111;
+}
+
