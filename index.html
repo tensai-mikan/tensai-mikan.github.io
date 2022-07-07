@@ -43,14 +43,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <meta name="format-detection" content="email=no,telephone=no,address=no">
     
-    <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-    .simple-border{
-    margin: 5px;
-    border: solid 1px #000;
-    padding: 0px 10px 0px;
-    }
-    </style>
+    <link rel="stylesheet" href="style_sp.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="style_pc.css" media="screen and (min-width:769px)">
+    <link rel="stylesheet" href="style_common.css">
     
 </head>
 <body>
@@ -64,9 +59,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <nav>
             <h1>天才ミカンのホームページ</h1>
              <ul id="header_list">
-                 <li class="h_list_elem">ホーム</li>
-                 <li class="h_list_elem">詳細</li>
-                 <li class="h_list_elem">お問い合わせ</li>
+                 <a href="javascript:void(0);" class="anchor"><li class="h_list_elem">ホーム</li></a>
+                 <a href="javascript:alert('まだ工事中なんです！');" class="anchor"><li class="h_list_elem">詳細</li></a>
+                 <a href='https://forms.office.com/r/UgmS5Vgq8A' class="anchor"><li class="h_list_elem">お問い合わせ</li></a>
+                 <a href="#information" class="anchor"><li class="h_list_elem sp_only">お知らせ</li></a>
              </ul>
          </nav>
     </header>
@@ -91,8 +87,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        </div>
    </section>
    
-   <section class="side">
-      <p>注意　現在、スマホ用デザインを制作中です。</p>
+   <section class="side" id="information">
+      <p>お知らせ　現在、工事中です。</p>
    </section>
    
    <section class="side" id="ad1">
