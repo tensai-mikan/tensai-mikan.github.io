@@ -45,7 +45,7 @@ footer{
 clear:  left;
 width:  calc(100% - 160px);
 padding:  50px 80px 50px 80px;
-margin-top: auto;
+margin-top: 5px;
 background-color:  #ccc;
 color:  #111;
 }
